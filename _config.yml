@@ -12,26 +12,26 @@ email: jessiengweijie@gmail.com
 # email_title: Email (Email title override)
 # phone: Your phone number (optional)
 # phone_title: Phone (Phone title override)
-# website: 
+# website:
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: 
-github_username:  Jessiengweijie
-stackoverflow_username: 
-dribbble_username: 
-facebook_username: 
-flickr_username: 
-instagram_username: 
+twitter_username:
+github_username: Jessiengweijie
+stackoverflow_username:
+dribbble_username:
+facebook_username:
+flickr_username:
+instagram_username:
 linkedin_username: Jessiengweijie
-xing_username: 
-pinterest_username: 
-youtube_username: 
-orcid_username: 
-googlescholar_username: 
+xing_username:
+pinterest_username:
+youtube_username:
+orcid_username:
+googlescholar_username:
 
 # Additional icon links
 # additional_links:
@@ -50,31 +50,32 @@ googlescholar_username:
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_profile_image: images/male.png
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+  Hey there! 👋 I'm Jessie, and I'm currently an ungraduate student majoring in Electrical and Electronic Engineering at Nanyang Technical University. 
+  In addition to my studies, I've also delved into software development and web app creation. 
+  Through various experiences, I've had the opportunity to develop valuable teamwork and leadership skills.
 
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+  My expertise lies in managing network systems and exploring the intricacies of software development.
+
+  Feel free to [connect](https://www.linkedin.com/in/Jessiengweijie) if you want to chat about networking, software development, or anything else!
 
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
+        border:
+          weak # Value of `weak` will display a weak border below this item. # Any
+          # other value (or no value) means no border will be displayed
         title: Project name
         link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         link_text: Link Text
         additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          - title: Github page for project (eg. sproogen/modern-resume-theme)
             icon: fab fa-github
             url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          - title: Github page for project (eg. sproogen/modern-resume-theme)
             icon: fab fa-github
             url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
@@ -124,17 +125,18 @@ sass:
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
 
-exclude : [
-  "Gemfile",
-  "Gemfile.lock",
-  "node_modules",
-  "vendor/bundle/",
-  "vendor/cache/",
-  "vendor/gems/",
-  "vendor/ruby/",
-  "lib/",
-  "scripts/",
-  "docker-compose.yml",
+exclude:
+  [
+    "Gemfile",
+    "Gemfile.lock",
+    "node_modules",
+    "vendor/bundle/",
+    "vendor/cache/",
+    "vendor/gems/",
+    "vendor/ruby/",
+    "lib/",
+    "scripts/",
+    "docker-compose.yml",
   ]
